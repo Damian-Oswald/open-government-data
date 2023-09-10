@@ -1,4 +1,5 @@
 # Open Government Data
+
 Damian Oswald
 September 10, 2023
 
@@ -12,24 +13,27 @@ September 10, 2023
     standards](#open-standards)
   - [<span class="toc-section-number">1.4</span>
     Interoperability](#interoperability)
-  - [<span class="toc-section-number">1.5</span> Data owner, custodian
-    and steward](#data-owner-custodian-and-steward)
-- [<span class="toc-section-number">2</span> The Swiss OGD
+- [<span class="toc-section-number">2</span> Data owner, custodian and
+  steward](#data-owner-custodian-and-steward)
+- [<span class="toc-section-number">3</span> The Swiss OGD
   ecosystem](#the-swiss-ogd-ecosystem)
-  - [<span class="toc-section-number">2.1</span> Legal
-    framework](#legal-framework)
+  - [<span class="toc-section-number">3.1</span> How to anonymize
+    personal data](#how-to-anonymize-personal-data)
+- [<span class="toc-section-number">4</span> The impact of open
+  government data](#the-impact-of-open-government-data)
+- [<span class="toc-section-number">5</span> Conclusion](#conclusion)
 - [References](#references)
 
 “The world’s most valuable resource is no longer oil, but data” – at
 least that’s how *The Economist* phrased it in an article in 2017 (*1*).
-But is that really true? There are certainly good reasons to support
-this metaphor. Much like oil, data can also be seen as a raw material –
-and as a raw material they are worthless unless processed.
+But is that true? There are certainly good reasons to support this
+metaphor. Much like oil, data can also be seen as a raw material – and
+as a raw material they are worthless unless processed.
 
 However, there is the argument that data could be viewed more like an
 infrastructure than oil in the sense that it provides the fundamental
 framework or system needed for things to function. This could be in the
-context of operations, processes or even economies. Data, similar to
+context of operations, processes or even economies. Data, like
 infrastructure, is essential for information flow, decision making, and
 overall functioning in today’s digital era. And, unlike oil, which is
 consumed and needs to be replenished, data can be used repeatedly.
@@ -66,11 +70,10 @@ in a sensible size.
 
 ## The five star system
 
-Not all OGD is of the same quality – *all OGD are open, but some are
-more open than others*. In 2010, Sir Tim Berners-Lee suggested a 5-star
-ranking for open data, starting with one star, where the data get more
-stars as proprietary formats are removed and links are added
-([table 1](#tbl-stars)).
+Not all open data are of the same quality – *all OGD are open, but some
+are more open than others*. In 2010, Sir Tim Berners-Lee suggested a
+5-star ranking for open data. The data get more stars as proprietary
+formats are removed and links are added ([table 1](#tbl-stars)).
 
 <div id="tbl-stars">
 
@@ -90,11 +93,11 @@ stars, the more *open* the published data is.
 ## Open standards
 
 For data to be truly open, it is not enough that it is accessible. The
-data format also needs to follow an *open standard*, that is, a standard
-that is widely used, internationally accepted, consense-based, in the
-public domain and clearly defined. Importantly, metadata, i.e. data
-about the data, should also follow that open standard. Example of that
-are *Dublin Core*, *Schema.org*, or *DCAT*.
+format also needs to follow an *open standard*, that is, a standard that
+is widely used, internationally accepted, consensus-based, in the public
+domain and clearly defined. Importantly, metadata, i.e., data about the
+data, should also follow that open standard. Examples of that are
+*Dublin Core*, *Schema.org*, or *DCAT*.
 
 ## Interoperability
 
@@ -104,7 +107,7 @@ information in an efficient and usable manner, and to make it available
 to the user without the need for special agreements between the systems.
 For this, compliance with common standards is necessary.
 
-## Data owner, custodian and steward
+# Data owner, custodian and steward
 
 The roles of data owners, data custodians, and data stewards, all play
 critical parts in the management and governance of data, but their
@@ -132,105 +135,123 @@ responsibilities are distinct:
 
 # The Swiss OGD ecosystem
 
-## Legal framework
+Switzerland passed the Freedom of Information Act and Regulation
+(*Öffentlichkeitsgesetz, Öffentlichkeitsverordnung*) on July 1, 2006.
+These laws state, that anybody has the right to get access to
+non-protected governmental documents (*4*). Although that was a first
+step towards a more transparent government, it’s not open government
+data. The [parliamentary group for digital
+sustainability](https://www.parldigi.ch) (Parldigi), founded in 2009, is
+concerned with promoting concepts such as open source software, open
+standards, open data, open access, open content, open internet, open
+government in parliament. Outside of parliament, the association
+[opendata.ch](https://opendata.ch/), founded in 2011, has been committed
+to strengthening transparency, participation and innovation in
+Switzerland with respect to data.
 
-- Öffentlichkeitsgesetz und Öffentlichkeitsverordnung seit 1. Juli 2006
-  in Kraft
-  - Paradigmenwechsel: Vom Grundsatz der Geheimhaltung mit
-    Öffentlichkeitsvorbehalt zum Grundsatz der Öffentlichkeit mit
-    Geheimhaltungsvorbehalt
-  - Vor 2006 Geheimhaltungsgrundsatz: Freies Ermessen der Behörden ob
-    sie Zugang geben oder nicht
-  - Seit 2006 Öffentlichkeitsprinzip: Durchsetzbares Recht auf Zugang zu
-    amtlichen Dokumenten
-- Parlamentarische Gruppe Digitale Nachhaltigkeit (Parldigi):
-  - Gegründet 2009 zur Förderung von Open Source Software
-  - Weitere Themen wie Open Government Data, Netzneutralität,
-    Netzsperren, Überwachung etc. kamen über die Jahre dazu
-  - Über 50 eingereichte Vorstösse, zahlreiche erfolgreiche Motionen und
-    Postulate (öffentliche Beschaffung, OGD etc.)
-  - <https://www.parldigi.ch>
-  - Schwerpunkte sind: Open source software, open standards, open data,
-    open access, open content, open internet, open government.
-- Verein Opendata.ch
-  - Vereinsgründung 2012
-  - Setzt sich für open data in der Schweiz ein
-- OGD Strategie Schweiz 2019 – 2023
-  - (*2*)
-  - Geschäftsstelle OGD im Bundesamt für Statistik (BFS) ist
-    verantwortlich für Umsetzung
-  - Koordinierte Datenpublikation fördern
-  - Daten und Datenbeschreibung: Qualität sicherstellen
-  - OGD wird durch durch standardisierte und aussagekräftige Metadaten
-    beschrieben –\> informiert über Zustandekommen, Struktur und
-    Vertrauenswürdigkeit der Daten
-  - Betreiben der Plattform <https://opendata.swiss>
-- Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von
-  Behördenaufgaben (EMBAG) (*4*)
-
-> **Art. 9** Open Source Software
->
-> <sup>1</sup> Die diesem Gesetz unterstehenden Bundesbehörden legen den
-> Quellcode von Software offen, die sie zur Erfüllung ihrer Aufgaben
-> entwickeln oder entwickeln lassen, es sei denn die Rechte Dritter oder
-> sicherheitsrelevante Gründe würden dies ausschliessen oder
-> einschränken.
+The legal framework around OGD recently experienced renewal with the OGD
+strategy Switzerland 2019-2023 (*2*). This strategy creates a business
+office OGD within the federal statistical office responsible with its
+implementation. Goal is the targeted publication of government data at a
+high quality. For this purpose, the meta data platform
+[opendata.swiss](https://opendata.swiss) is created. Supporting that
+strategy, the federal law on the use of electronic means for the
+fulfillment of official duties (EMBAG), which is expected to come into
+effect in the beginning of 2024, will force all governmental software
+and data to be published *by default* (*5*). Specifically, the law
+states:
 
 > **Art. 10** Open Government Data
 >
-> <sup>1</sup> Die diesem Gesetz unterstehenden Verwaltungseinheiten
+> <sup>1</sup> *Die diesem Gesetz unterstehenden Verwaltungseinheiten
 > machen ihre Daten, die sie zur Erfüllung ihrer gesetzlichen Aufgaben
 > beschaffen oder generieren und die elektronisch gespeichert und in
-> Sammlungen strukturiert vorliegen, öffentlich zugänglich.
+> Sammlungen strukturiert vorliegen, öffentlich zugänglich.*
 
-<!-- ## Anonymizing data -->
-<!-- In 1998, Samarati and Sweeney have developed a protocol called $k$-anonymity in order to anonymize personal data [@samarati1998protecting]. -->
-<!-- A simple algorithm to calculate the $k$-anonymity of a data frame in R could be written as follows: -->
-<!-- ``` r -->
-<!-- K <- numeric(nrow(D)) -->
-<!-- for (i in 1:nrow(D)) { -->
-<!--    for (j in 1:nrow(D)) { -->
-<!--       if(i==j) next -->
-<!--       if(all(D[i,qi]==D[j,qi])) K[j] <- K[j]+1 -->
-<!--    } -->
-<!-- } -->
-<!-- k <- min(K) -->
-<!-- ``` -->
-<!-- Here, `K` is the number of identical entries found for an observation in the data set `D`, while `k` is the minimum of vector `K`. The vector `qi` contains variable names of the quasi-identifiers. -->
-<!-- \begin{table} -->
-<!--   \centering -->
-<!--   \begin{tabular}{@{}llll@{}} -->
-<!--     \toprule -->
-<!--     Name & Birthday & Sex & Positive \\ -->
-<!--     \midrule -->
-<!--     Alison Thompson & 1992-04-21 & f & \texttt{False} \\ -->
-<!--     Thomas Peterson & 1992-03-04 & m & \texttt{False} \\ -->
-<!--     Daniel Smith & 1991-11-15 & m & \texttt{True} \\ -->
-<!--     Ethan Hudson & 1991-09-29 & m & \texttt{False} \\ -->
-<!--     Emily Gibson & 1992-12-02 & f & \texttt{False} \\ -->
-<!--     Charlotte Ava Bradley & 1992-05-18 & f & \texttt{True} \\ -->
-<!--     \bottomrule -->
-<!--   \end{tabular} -->
-<!--   \caption{Example data set of personal data.} -->
-<!--   \label{table:k1} -->
-<!-- \end{table} -->
-<!-- \begin{table} -->
-<!--   \centering -->
-<!--   \begin{tabular}{@{}llll@{}} -->
-<!--     \toprule -->
-<!--     Year & Sex & Positive \\ -->
-<!--     \midrule -->
-<!--     1992 & f & \texttt{False} \\ -->
-<!--     1992 & m & \texttt{False} \\ -->
-<!--     1991 & m & \texttt{True} \\ -->
-<!--     1991 & m & \texttt{False} \\ -->
-<!--     1992 & f & \texttt{False} \\ -->
-<!--     1992 & f & \texttt{True} \\ -->
-<!--     \bottomrule -->
-<!--   \end{tabular} -->
-<!--   \caption{Example data set of personal data.} -->
-<!--   \label{table:k1} -->
-<!-- \end{table} -->
+However, there are many exceptions to that law, such that finding
+excuses not to publish data for governmental bodies will remain
+relatively easy. In addition, the data protection act states that for
+the publication of *personal data*, i.e., data referring to any legal
+entity, a special legal basis is required – thus, personal data are
+specifically exempt from the EMBAG (*6*).
+
+## How to anonymize personal data
+
+Personal data may only be published if it is anonymized. One such method
+for anonymization is $k$-anonymity. Its protocol was developed in 1998
+by Samarati and Sweeney (*7*). The (basic) algorithm to determine the
+degree of anonymity $k$ of some personal data is relatively simple. In
+R, it could be written as follows:
+
+``` r
+K <- numeric(nrow(D))
+for (i in 1:nrow(D)) {
+   for (j in 1:nrow(D)) {
+      if(i==j) next
+      if(all(D[i,qi]==D[j,qi])) K[j] <- K[j]+1
+   }
+}
+k <- min(K)
+```
+
+Here, `K` is the number of identical entries found for an observation in
+the data set `D`, while `k` is the minimum of vector `K`. The vector
+`qi` contains variable names of the quasi-identifiers. Standard personal
+data should only be published when $k \geq 20$, and sensitive personal
+data only if $k \geq 50$.
+
+# The impact of open government data
+
+Open government data can have all sorts of benefits. This includes (but
+is not limited to) the following:
+
+1.  **Transparency:** Open government data allows for greater
+    transparency in public administration. It enables citizens to see
+    what decisions are being made and how resources are being allocated.
+    This may build trust, as citizens can see the rationale behind
+    policies and decisions, and helps to hold government officials
+    accountable.
+
+2.  **Innovation:** Open data can be used by individuals or
+    organizations to create innovative solutions and services. As such,
+    it can foster entrepreneurship and stimulate economic growth.
+
+3.  **Sustainability:** Open government data can be useful in academic
+    research, and may be used as a resource in education, both for
+    teaching and learning. Students can analyze real data for projects
+    or assignments. It also encourages citizen participation and
+    engagement in government processes by enabling more informed
+    discussions and debates.
+
+4.  **Efficiency:** Open data fosters collaboration between different
+    government entities, as well as between governments and citizens,
+    nonprofits, businesses, etc. This can generally lead to a more
+    efficient and attractive government administration.
+
+This all sounds great. However, individual governmental bodies need to
+know what their specific goals are, i.e., why they are publishing data.
+And ideally, they should (quantitatively) measure the impact in that
+regard, for example by applying the social return on investment approach
+(*8*). Unfortunatelly, determining causal effects like this is very
+difficult. It might be much more straightforward to pose surrogate
+questions: What businesses rely on the open data? How many research
+papers were published using the data? How often was the data used by
+journalists? Did the transparency lead to any citizen participation? So
+really, we are interested in the intermediaries, the entities using the
+open data, rather than their final effects.
+
+# Conclusion
+
+Open government data represents a significant opportunity to foster
+transparency, accountability, innovation and citizen participation in
+governance. It also bolsters economic growth and encourages data-driven
+policy making. In Switzerland, laws start to come into effect that
+specifically promote open government data. However, for OGD to be truly
+open (in spirit), some concepts such as FAIR, the five-star system,
+interoperability and open standards need to be followed. Also, it’s
+crucial for governments to clearly define their OGD goals and assess
+their impact, ensuring that the data is effectively serving its intended
+purpose and benefiting society.
 
 # References
 
@@ -265,14 +286,53 @@ governance](https://doi.org/10.1016/C2012-0-07057-3)* (Academic press,
 
 </div>
 
-<div id="ref-fedlex2023" class="csl-entry">
+<div id="ref-fedlex2004" class="csl-entry">
 
 <span class="csl-left-margin">4.
+</span><span class="csl-right-inline">Schweizerische Eidgenossenschaft,
+<span class="nocase">Bundesgesetz <span class="nocase">ü</span>ber das
+Öffentlichkeitsprinzip der Verwaltung (Öffentlichkeitsgesetz,
+BGÖ)</span> (2004), (available at
+<https://fedlex.data.admin.ch/eli/fga/2004/1275>).</span>
+
+</div>
+
+<div id="ref-fedlex2023" class="csl-entry">
+
+<span class="csl-left-margin">5.
 </span><span class="csl-right-inline">Schweizerische Eidgenossenschaft,
 <span class="nocase">Bundesgesetz <span class="nocase">ü</span>ber den
 Einsatz elektronischer Mittel zur Erf<span class="nocase">ü</span>llung
 von Beh<span class="nocase">ö</span>rdenaufgaben (EMBAG)</span> (2023),
 (available at <https://fedlex.data.admin.ch/eli/fga/2023/787>).</span>
+
+</div>
+
+<div id="ref-fedlex2023dsg" class="csl-entry">
+
+<span class="csl-left-margin">6.
+</span><span class="csl-right-inline">Schweizerische Eidgenossenschaft,
+<span class="nocase">Bundesgesetz <span class="nocase">ü</span>ber den
+Datenschutz (Datenschutzgesetz, DSG)</span> (2023), (available at
+<https://fedlex.data.admin.ch/eli/cc/2022/491>).</span>
+
+</div>
+
+<div id="ref-samarati1998protecting" class="csl-entry">
+
+<span class="csl-left-margin">7.
+</span><span class="csl-right-inline">P. Samarati, L. Sweeney,
+Protecting privacy when disclosing information: K-anonymity and its
+enforcement through generalization and suppression (1998).</span>
+
+</div>
+
+<div id="ref-stuermer2016measuring" class="csl-entry">
+
+<span class="csl-left-margin">8.
+</span><span class="csl-right-inline">[M. Stuermer, M. M. Dapp, in *2016
+conference for e-democracy and open government (CeDEM)* (IEEE, 2016),
+pp. 197–203](https://doi.org/10.1109/CeDEM.2016.31).</span>
 
 </div>
 
