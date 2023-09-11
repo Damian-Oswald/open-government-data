@@ -1,6 +1,7 @@
 # Open Government Data
 
 Damian Oswald
+
 September 10, 2023
 
 - [<span class="toc-section-number">1</span> Some principles behind
