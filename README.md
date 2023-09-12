@@ -80,11 +80,11 @@ formats are removed and links are added ([table 1](#tbl-stars)).
 
 |                       Stars | Idea                                                                                | Example format       |
 |----------------------------:|:------------------------------------------------------------------------------------|:---------------------|
-|                     $\star$ | Make your stuff available on the web under an open license (no matter the format)   | `PDF`                |
-|                $\star\star$ | Make it available as structured data (e.g., Excel instead of image scan of a table) | `XLS`                |
-|           $\star\star\star$ | Make it available in a non-proprietary open format (e.g., CSV instead of Excel)     | `CSV`, `JSON`, `XML` |
-|      $\star\star\star\star$ | Use URIs to denote things, so that people can point at your stuff                   | `RDF`                |
-| $\star\star\star\star\star$ | Link your data to other data to provide context                                     | `LOD`                |
+|                     $\star$ | Make your stuff available on the web under an open license (no matter the format).   | `PDF`                |
+|                $\star\star$ | Make it available as structured data (e.g., Excel instead of image scan of a table). | `XLS`                |
+|           $\star\star\star$ | Make it available in a non-proprietary open format (e.g., CSV instead of Excel).     | `CSV`, `JSON`, `XML` |
+|      $\star\star\star\star$ | Use URIs to denote things, so that people can point at your stuff.                   | `RDF`                |
+| $\star\star\star\star\star$ | Link your data to other data to provide context.                                     | `LOD`                |
 
 Table 1: The five-star system according to Tim Berners-Lee. The more
 stars, the more *open* the published data is.
