@@ -244,6 +244,8 @@ citizen participation? So really, we are interested in the
 intermediaries, the entities using the open data, rather than their
 final effects.
 
+![](https://wp.opendata.swiss/wp-content/uploads/2021/02/terms_by-ask.png)
+
 # Conclusion
 
 Open government data represents a significant opportunity to foster
