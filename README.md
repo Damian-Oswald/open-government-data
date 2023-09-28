@@ -244,7 +244,11 @@ citizen participation? So really, we are interested in the
 intermediaries, the entities using the open data, rather than their
 final effects.
 
-![](terms-by-ask.png)*The terms logos by opendata.swiss. The first indicates free usage. The second usage under the condition of citation. The third logo indicates that the data may only be used after permission.*
+<figure>
+<img src="terms-by-ask.png" id="fig-termsbyask"
+alt="Figure 1: The terms logos by opendata.swiss. The first indicates free usage. The second usage under the condition of citation. The third logo indicates that the data may only be used after permission." />
+<figcaption aria-hidden="true">Figure 1: The terms logos by opendata.swiss. The first indicates free usage. The second usage under the condition of citation. The third logo indicates that the data may only be used after permission.</figcaption>
+</figure>
 
 # Conclusion
 
