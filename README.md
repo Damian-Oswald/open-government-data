@@ -3,6 +3,8 @@ Open Government Data
 Damian Oswald
 September 11, 2023
 
+---
+
 - [<span class="toc-section-number">1</span> Some principles behind
   OGD](#some-principles-behind-ogd)
   - [<span class="toc-section-number">1.1</span> The FAIR
@@ -23,6 +25,8 @@ September 11, 2023
   government data](#the-impact-of-open-government-data)
 - [<span class="toc-section-number">5</span> Conclusion](#conclusion)
 - [References](#references)
+
+---
 
 “The world’s most valuable resource is no longer oil, but data” – at
 least that’s how *The Economist* phrased it in an article in 2017
