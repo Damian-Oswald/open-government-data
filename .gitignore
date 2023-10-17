@@ -1,3 +1,9 @@
+# Don't commit the gitignore file itself
+.gitignore
+
+# Don't commit any HTML files and neither the dependencies
+*.html
 open-government-data_files/
 
-*.html
+# Don't add the MacOS specific hidden files
+.DS_Store
