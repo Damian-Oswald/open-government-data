@@ -14,6 +14,7 @@ format:
     number-sections: false
     link-citations: true
     template: /Users/answaltan/OneDrive/Documents/Code/Templates/Quarto/PDF/twocolumn.tex
+  html: default
 bibliography: references.bib
 csl: /Users/answaltan/OneDrive/Documents/Code/Templates/Quarto/CSL/science.csl
 engine: knitr
