@@ -1,32 +1,6 @@
-Open Government Data
-================
+# Open Government Data
 Damian Oswald
-September 28, 2023
-
----
-
-- [<span class="toc-section-number">1</span> Some principles behind
-  OGD](#some-principles-behind-ogd)
-  - [<span class="toc-section-number">1.1</span> The FAIR
-    principle](#the-fair-principle)
-  - [<span class="toc-section-number">1.2</span> The five-star
-    system](#the-five-star-system)
-  - [<span class="toc-section-number">1.3</span> Open
-    standards](#open-standards)
-  - [<span class="toc-section-number">1.4</span>
-    Interoperability](#interoperability)
-- [<span class="toc-section-number">2</span> Data owner, custodian and
-  steward](#data-owner-custodian-and-steward)
-- [<span class="toc-section-number">3</span> The Swiss OGD
-  ecosystem](#the-swiss-ogd-ecosystem)
-  - [<span class="toc-section-number">3.1</span> How to anonymize
-    personal data](#how-to-anonymize-personal-data)
-- [<span class="toc-section-number">4</span> The impact of open
-  government data](#the-impact-of-open-government-data)
-- [<span class="toc-section-number">5</span> Conclusion](#conclusion)
-- [References](#references)
-
----
+October 17, 2023
 
 “The world’s most valuable resource is no longer oil, but data” – at
 least that’s how *The Economist* phrased it in an article in 2017
@@ -84,11 +58,11 @@ formats are removed and links are added ([table 1](#tbl-stars)).
 
 |                       Stars | Idea                                                                                | Example format       |
 |----------------------------:|:------------------------------------------------------------------------------------|:---------------------|
-|                     $\star$ | Make your stuff available on the web under an open license (no matter the format).   | `PDF`                |
-|                $\star\star$ | Make it available as structured data (e.g., Excel instead of image scan of a table). | `XLS`                |
-|           $\star\star\star$ | Make it available in a non-proprietary open format (e.g., CSV instead of Excel).     | `CSV`, `JSON`, `XML` |
-|      $\star\star\star\star$ | Use URIs to denote things, so that people can point at your stuff.                   | `RDF`                |
-| $\star\star\star\star\star$ | Link your data to other data to provide context.                                     | `LOD`                |
+|                     $\star$ | Make your stuff available on the web under an open license (no matter the format)   | `PDF`                |
+|                $\star\star$ | Make it available as structured data (e.g., Excel instead of image scan of a table) | `XLS`                |
+|           $\star\star\star$ | Make it available in a non-proprietary open format (e.g., CSV instead of Excel)     | `CSV`, `JSON`, `XML` |
+|      $\star\star\star\star$ | Use URIs to denote things, so that people can point at your stuff                   | `RDF`                |
+| $\star\star\star\star\star$ | Link your data to other data to provide context                                     | `LOD`                |
 
 Table 1: The five-star system according to Tim Berners-Lee. The more
 stars, the more *open* the published data is.
@@ -248,12 +222,6 @@ citizen participation? So really, we are interested in the
 intermediaries, the entities using the open data, rather than their
 final effects.
 
-<figure>
-<img src="terms-by-ask.png" id="fig-termsbyask"
-alt="Figure 1: The terms logos by opendata.swiss. The first indicates free usage. The second usage under the condition of citation. The third logo indicates that the data may only be used after permission." />
-<figcaption aria-hidden="true">Figure 1: The terms logos by opendata.swiss. The first indicates free usage. The second usage under the condition of citation. The third logo indicates that the data may only be used after permission.</figcaption>
-</figure>
-
 # Conclusion
 
 Open government data represents a significant opportunity to foster
@@ -351,4 +319,3 @@ pp. 197–203](https://doi.org/10.1109/CeDEM.2016.31).</span>
 </div>
 
 </div>
-
