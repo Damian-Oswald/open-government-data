@@ -16,7 +16,7 @@ format:
     template: /Users/answaltan/OneDrive/Documents/Code/Templates/Quarto/PDF/twocolumn.tex
   html: default
 bibliography: references.bib
-csl: /Users/answaltan/OneDrive/Documents/Code/Templates/Quarto/CSL/science.csl
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/science.csl
 engine: knitr
 ---
 
